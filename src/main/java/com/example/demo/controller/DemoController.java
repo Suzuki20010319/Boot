@@ -82,8 +82,9 @@ public class DemoController {
 	@GetMapping("/test2")
 	public Test check() {
 		Test test = new Test();
-		test.setName("<゜)))彡");
+		test.setName("(=^・^=)");
 		test.setScore(1000000000);
+		test.setAge(2);
 		return test;
 	}
 }
